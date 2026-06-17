@@ -24,6 +24,10 @@
 .DS_Store
 *.pem
 
+# large assets (hosted on COS)
+/public/videos/
+/public/*.pdf
+
 # debug
 npm-debug.log*
 yarn-debug.log*
