@@ -70,7 +70,7 @@ export default function HeroSection() {
           <p className="text-base md:text-lg text-white/50 max-w-md mb-10 leading-relaxed">
             专注设计团队管理、游戏买量视频创意策划与制作。
             <br />
-            覆盖 AI 短剧、JOJO、火影、龙珠、水浒等全 IP 类型素材。
+            覆盖 火影、龙珠、海贼王、JOJO、水浒等IP素材。包含卡牌、仙侠、传奇等全品类的海内外产品。
           </p>
 
           {/* 核心数据 */}

@@ -52,11 +52,12 @@ export default function VideoModal({ video, onClose }: VideoModalProps) {
         className="relative z-10 bg-card-bg border border-card-border rounded-2xl overflow-hidden max-w-3xl w-full max-h-[90vh] flex flex-col shadow-2xl"
         onClick={(e) => e.stopPropagation()}
       >
-        {/* Video player area */}
-        <div className="relative bg-black">
+        {/* Video player area — min-height 防止加载时抖动 */}
+        <div className="relative bg-black min-h-[40vh] flex items-center justify-center">
           <video
             ref={videoRef}
             src={video.videoUrl}
+            poster={video.thumbnailUrl || undefined}
             className="w-full max-h-[60vh] object-contain"
             controls
             playsInline
