@@ -1,5 +1,7 @@
 import { VideoProject } from '@/types';
 
+/** 视频数据 — 托管于腾讯云 COS */
+
 /** 分类展示顺序 */
 export const CATEGORY_ORDER: Record<string, number> = {
   '火影': 0,
