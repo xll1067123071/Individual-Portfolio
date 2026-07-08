@@ -40,6 +40,14 @@ yarn-error.log*
 # vercel
 .vercel
 
+# upload scripts (contains credentials)
+scripts/upload-to-cos.mjs
+scripts/cos-url-map.json
+
+# deploy scripts
+deploy.sh
+deploy.ps1
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
